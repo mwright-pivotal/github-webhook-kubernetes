@@ -134,6 +134,9 @@
 						<artifactId>maven-surefire-plugin</artifactId>
 						<version>2.22.1</version>
 						<configuration>
+							<!-- Retain stack traces -->
+                    			<argLine>-XX:-OmitStackTraceInFastThrow</argLine>
+                    			<useSystemClassLoader>false</useSystemClassLoader>
 							<includes>
 								<include>**/*Tests.java</include>
 								<include>**/*Test.java</include>
