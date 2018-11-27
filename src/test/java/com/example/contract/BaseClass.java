@@ -21,7 +21,8 @@ import com.example.DemoApplication;
 import com.example.Pojo;
 import com.example.TestDbAccessor;
 import com.example.TransformerController;
-import com.jayway.restassured.module.mockmvc.RestAssuredMockMvc;
+
+import io.restassured.module.mockmvc.RestAssuredMockMvc;
 
 /**
  * @author Marcin Grzejszczak
